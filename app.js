@@ -1,7 +1,6 @@
 const express = require("express");
 const google = require("googleapis");
 const cs = google.customsearch("v1");
-const url = require("url");
 
 const app = express();
 const port = process.env.PORT || 8080;
